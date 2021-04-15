@@ -6,6 +6,10 @@ header {
     justify-content: space-between;
 }
 
+nav {
+    text-align: right;
+}
+
 a {
     display: inline-flex;
     align-items: center;
@@ -17,25 +21,8 @@ a {
     margin-right: 30px;
 }
 
-#button {
-    display: inline-block;
-    background-color: #609970;
-    box-shadow: 5px 5px 0px black;
-    padding: 18px 20px;
-    margin-right: 0px;
-    transition: transform 100ms linear;
-} 
-
-#button:hover {
-    transform: scale(1.08);
-}
-
 a:hover {
     color:chartreuse;
-}
-
-nav {
-    text-align: right;
 }
 
 a::before {
@@ -47,4 +34,3 @@ a::before {
     margin-right: 10px;
     vertical-align: middle;
 }
-
