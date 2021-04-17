@@ -1,0 +1,17 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #609970;
+    box-shadow: 5px 5px 0px black;
+    cursor: pointer;
+}
+
+.button-arrow::before {
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 20px solid transparent;
+    border-left: 28px solid white;
+    box-sizing: border-box;
+}
