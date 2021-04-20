@@ -14,4 +14,13 @@
     border: 20px solid transparent;
     border-left: 28px solid white;
     box-sizing: border-box;
+    transform: translateX(5px);
+}
+
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow.-left::before {
+    transform: rotate(180deg) translateX(15px);
 }
