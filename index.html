@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
@@ -32,10 +33,10 @@
     <header class="main-header">
         <img src="assets/img/logo.png" alt="Avatar do Waldemar">
         <nav>
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
+            <a class="action" href="#skills" lang="en">Skills</a>
+            <a class="action" href="#projetos">Projetos</a>
+            <a class="action" href="#sobre">Sobre</a>
+            <a class="action" href="#contato">Contato</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
@@ -52,7 +53,7 @@
         </div>
     </section>
     <section class="main-section">
-        <h2 class="main-title -second">Skills</h2>
+        <h2 id="skills" class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <article class="skill-tec">
                 <img class="icon" src="assets/img/ico_html5.png" alt="Logo do HTML5">
@@ -112,7 +113,7 @@
         </article>
         </div>
     </section>
-    <section class="main-section -second">
+    <section class="main-section -second" id="projetos">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-projects">
             <a href="https://www.firedlabs.com" target="_blank">
@@ -132,7 +133,7 @@
             </a>
         </div>
     </section>
-    <section class="main-section -third">
+    <section class="main-section -third" id="sobre">
         <h2 class="main-title -second">Sobre</h2>
         <section class="main-varal">
             <button class="button-arrow -left"><span class="content">Esquerda</span></button>
@@ -194,10 +195,10 @@
         <!-- <p class="main-description">Hoje, Analista de Suporte no Serviço Federal de Processamento de Dados e Professor de Informática da Secretaria de Estado de Educação do Distrito Federal, cursou faculdade de Computação na Universidade de Brasília, trabalhou por vários anos como Administrador de Sistemas GNU/Linux, tutor e produtor de material didático de cursos de EaD no Centro de Difusão de Tecnologia e Conhecimento. Foi Analista de Suporte também no Ticket Center da FIFA durante a Copa do Mundo de 2014. Pai do Ravi, marido da Bruna, sofredor do São Paulo Futebol Clube, gosta de tocar guitarra e jogar Counter Strike nas horas vagas.</p> -->
         <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quas quo aperiam vero laboriosam nesciunt! Nobis pariatur sequi blanditiis quas corporis eum. Ea, voluptatibus ipsa distinctio quidem fugiat doloribus.</p>
     </section>
-    <section class="main-section -form">
+    <section class="main-section -form" id="contato">
         <h2 class="main-title -second">Contato</h2>
         <div class="wrapper-form">
-            <form action="" method="get">
+            <form class="main-form">
                 <label class="main-label" for="GET-name">Nome</label><br>
                 <input class="main-input" id="GET-name" type="text" name="name"><br>
  
