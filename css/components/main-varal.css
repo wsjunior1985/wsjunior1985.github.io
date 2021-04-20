@@ -1,0 +1,52 @@
+.main-varal {
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-varal .button-arrow {
+    position: absolute;
+    bottom: 70px;
+}
+
+.main-varal .button-arrow.-left {
+    left: 15px;
+}
+
+.main-varal .button-arrow.-right {
+    right: 15px;
+}
+
+.main-varal::after {
+    content: "";
+    height: 6px;
+    width: calc(100% - 170px);
+    background-color: black;
+    display: block;
+    position: absolute;
+    left: 40;
+    top: 29px;
+}
+
+.main-varal::before {
+    content: "";
+    border: 3px dashed black;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    width: 100%;
+}
+.main-varal .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-varal .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+}
