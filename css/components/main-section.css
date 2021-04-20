@@ -14,12 +14,18 @@
     background-color: black;
     height: 530px;
     border-bottom: 10px solid #609970;
-
 }
 
 .main-section.-third {
     background-color: #3A4042;
-    height: 783px;
+    height: 790px;
     border-bottom: 10px solid black;
+}
 
+.main-section.-form {
+    background-color: #3A4042;
+    height: 815px;
+    border-bottom: 10px solid black;
+    color: white;
+    text-align: center;
 }
